@@ -1,0 +1,54 @@
+/* Example styling for HomePage - HomePage.css or added to App.css */
+.homepage-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .intro-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .featured-topics {
+    padding: 20px;
+  }
+  
+  .topics-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .topic-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .link-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .about-section {
+    padding: 40px;
+    background-color: #efefef;
+    text-align: center;
+  }

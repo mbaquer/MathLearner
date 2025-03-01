@@ -1,38 +1,54 @@
-.App {
+/* Example styling for HomePage - HomePage.css or added to App.css */
+.homepage-container {
+  font-family: Arial, sans-serif;
+}
+
+.intro-section {
   text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.featured-topics {
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topics-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.topic-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #28a745;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about-section {
+  padding: 40px;
+  background-color: #efefef;
+  text-align: center;
 }
